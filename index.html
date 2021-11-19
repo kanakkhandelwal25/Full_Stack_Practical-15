@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practical 15</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="title">
+                Create Account
+            </div>
+            <div>
+                <label for="username">User Name</label>
+                
+                <input type="text" name="username" id="uname" placeholder="Enter User Name"/>
+
+                <span id="err" class="material-icons-outlined">error</span>
+                <span id="tick" class="material-icons-outlined">check_circle</span>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                
+                <input type="text" name="Email" id="email" placeholder="Enter Email"/>
+
+                <span id="err" class="material-icons-outlined">error</span>
+                <span id="tick" class="material-icons-outlined">check_circle</span>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="passWord">Password</label>
+                
+                <input type="password" name="passWord" id="pass" placeholder="Enter Password"/>
+
+                <span id="err" class="material-icons-outlined">error</span>
+                <span id="tick" class="material-icons-outlined">check_circle</span>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="again">Password Again</label>
+                
+                <input type="text" name="again" id="pass2" placeholder="Enter Password Again"/>
+
+                <span id="err" class="material-icons-outlined">error</span>
+                <span id="tick" class="material-icons-outlined">
+                    check_circle
+                </span>
+                <div class="error"></div>
+            </div>
+            <button id="btn" onclick="res1" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
